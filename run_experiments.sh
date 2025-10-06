@@ -4,20 +4,19 @@ set -eu
 # Common args
 EPISODES=1
 MAX_STEPS=128
-REPLAY_LEN=2
+REPLAY_LEN=0
 SEED=0
 
 # Model/provider pairs (MODEL PROVIDER per line)
 # gpt-5 openai
-MODELS_PROVIDERS='
-gpt-5-mini openai
-gemini-2.5-pro gemini
-gemini-2.5-flash gemini
-'
+# gpt-5-mini openai
+# gemini-2.5-pro gemini
+# gemini-2.5-flash gemini
+MODELS_PROVIDERS='gpt-5 openai'
 
 # Environments
 ENVS="
-MiniGrid-SimpleCrossingS11N5-v0
+MiniGrid-LavaCrossingS9N1-v0
 "
 
 # MiniGrid-DoorKey-6x6-v0

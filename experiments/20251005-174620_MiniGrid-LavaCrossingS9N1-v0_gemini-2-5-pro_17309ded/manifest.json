@@ -1,0 +1,12 @@
+{
+  "env_id": "MiniGrid-LavaCrossingS9N1-v0",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "episodes": 1,
+  "max_steps": 128,
+  "replay_len": 0,
+  "seed_start": 0,
+  "run_dir": "experiments/20251005-174620_MiniGrid-LavaCrossingS9N1-v0_gemini-2-5-pro_17309ded",
+  "timestamp": "20251005-174620",
+  "run_uid": "20251005-174620_MiniGrid-LavaCrossingS9N1-v0_gemini-2-5-pro_17309ded"
+}
