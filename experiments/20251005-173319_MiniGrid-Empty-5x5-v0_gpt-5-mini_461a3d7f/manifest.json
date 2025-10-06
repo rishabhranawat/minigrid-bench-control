@@ -1,0 +1,12 @@
+{
+  "env_id": "MiniGrid-Empty-5x5-v0",
+  "provider": "openai",
+  "model": "gpt-5-mini",
+  "episodes": 1,
+  "max_steps": 128,
+  "replay_len": 2,
+  "seed_start": 0,
+  "run_dir": "experiments/20251005-173319_MiniGrid-Empty-5x5-v0_gpt-5-mini_461a3d7f",
+  "timestamp": "20251005-173319",
+  "run_uid": "20251005-173319_MiniGrid-Empty-5x5-v0_gpt-5-mini_461a3d7f"
+}

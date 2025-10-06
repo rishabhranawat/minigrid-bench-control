@@ -1,0 +1,12 @@
+{
+  "env_id": "MiniGrid-Empty-5x5-v0",
+  "provider": "gemini",
+  "model": "gemini-2.5-pro",
+  "episodes": 1,
+  "max_steps": 128,
+  "replay_len": 2,
+  "seed_start": 0,
+  "run_dir": "experiments/20251005-173443_MiniGrid-Empty-5x5-v0_gemini-2-5-pro_5cc36e9e",
+  "timestamp": "20251005-173443",
+  "run_uid": "20251005-173443_MiniGrid-Empty-5x5-v0_gemini-2-5-pro_5cc36e9e"
+}

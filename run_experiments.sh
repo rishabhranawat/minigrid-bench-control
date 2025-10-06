@@ -8,8 +8,8 @@ REPLAY_LEN=2
 SEED=0
 
 # Model/provider pairs (MODEL PROVIDER per line)
+# gpt-5 openai
 MODELS_PROVIDERS='
-gpt-5 openai
 gpt-5-mini openai
 gemini-2.5-pro gemini
 gemini-2.5-flash gemini
@@ -17,10 +17,11 @@ gemini-2.5-flash gemini
 
 # Environments
 ENVS="
-MiniGrid-Empty-5x5-v0
-MiniGrid-DoorKey-6x6-v0
 MiniGrid-SimpleCrossingS11N5-v0
 "
+
+# MiniGrid-DoorKey-6x6-v0
+# MiniGrid-SimpleCrossingS11N5-v0
 
 # Loops
 echo "$MODELS_PROVIDERS" | while read -r MODEL PROVIDER; do

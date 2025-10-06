@@ -276,12 +276,13 @@ def run_episode(env_id: str,
         images.append(current_img_bytes)
 
         # Call LLM with retry on formatting errors
-        retries = 3
+        retries = 1
         action_token = None
         last_error = None
         for _ in range(retries):
             raw = client.propose_action(images, PROMPT_SYSTEM, user_prompt)
             parsed = parse_llm_json(raw)
+            print(f"parsed: {parsed}")
             if not parsed or "action" not in parsed:
                 last_error = f"Bad JSON from LLM: {raw[:200]}"
                 # tighten reminder
