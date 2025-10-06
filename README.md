@@ -46,24 +46,11 @@ python bench.py --env_id MiniGrid-LavaCrossingS9N1-v0 --provider gemini --model 
 
 ### Simple Navigation (Empty 5x5)
 
-Here's an example of GPT-5-mini navigating a simple empty grid:
-
-![Step 0: Initial position](experiments/20251005-173319_MiniGrid-Empty-5x5-v0_gpt-5-mini_461a3d7f/step_000_action_taken_forward.png)
-
-The agent starts in the top-left corner and must navigate to the green goal square. Notice the text overlay showing:
-- **Model**: gpt-5-mini
-- **Step**: 0
-- **Buffer**: 0 (no replay history yet)
+![Gemini 2.5 Pro on Empty 5x5](https://github.com/rishabhranawat/minigrid-bench-control/blob/main/experiments/20251005-173443_MiniGrid-Empty-5x5-v0_gemini-2-5-pro_5cc36e9e/trajectory.gif)
 
 ### Complex Navigation (Lava Crossing)
 
-Here's GPT-5 navigating a challenging lava crossing environment:
-
-![Step 0: Lava crossing start](experiments/20251005-174318_MiniGrid-LavaCrossingS9N1-v0_gpt-5-mini_4f59e07c/step_000_action_taken_right.png)
-
-![Step 5: Mid-crossing](experiments/20251005-175128_MiniGrid-LavaCrossingS9N1-v0_gpt-5_b3d8b4db/step_005_action_taken_forward.png)
-
-The agent must navigate around the orange lava tiles to reach the green goal. The SARSA implementation helps the agent learn from previous states to avoid getting trapped.
+![Gemini 2.5 Pro on Lava Crossing](https://github.com/rishabhranawat/minigrid-bench-control/blob/main/experiments/20251005-174620_MiniGrid-LavaCrossingS9N1-v0_gemini-2-5-pro_17309ded/trajectory.gif)
 
 ## 🏗️ Architecture
 
